@@ -50,7 +50,7 @@ $messages['ar'] = array(
 	'right-editalluserpages' => 'تحرير صفحات المستخدم',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -74,7 +74,7 @@ $messages['be-tarask'] = array(
 	'right-editalluserpages' => 'рэдагаваньне старонак удзельнікаў',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Y-M D
  */
 $messages['br'] = array(
@@ -82,7 +82,7 @@ $messages['br'] = array(
 	'right-editalluserpages' => 'Kemmañ ar pajennoù implijer',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -90,7 +90,7 @@ $messages['bs'] = array(
 	'right-editalluserpages' => 'Uređivanje korisničkih stranica',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author SMP
  */
 $messages['ca'] = array(
@@ -122,7 +122,7 @@ $messages['el'] = array(
 	'right-editalluserpages' => 'Επεξεργασία σελίδων χρήστη',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Translationista
  */
 $messages['es'] = array(
@@ -130,7 +130,7 @@ $messages['es'] = array(
 	'right-editalluserpages' => 'Editar páginas de usuario',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  */
 $messages['eu'] = array(
@@ -138,7 +138,7 @@ $messages['eu'] = array(
 	'right-editalluserpages' => 'Lankide orrialdeak aldatu',
 );
 
-/** French (Français)
+/** French (français)
  * @author IAlex
  * @author Urhixidur
  */
@@ -147,7 +147,7 @@ $messages['fr'] = array(
 	'right-editalluserpages' => 'Modifier les pages utilisateurs',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -186,7 +186,7 @@ $messages['hsb'] = array(
 	'right-editalluserpages' => 'Wužiwarske strony wobdźěłać',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Glanthor Reviol
  */
 $messages['hu'] = array(
@@ -194,7 +194,7 @@ $messages['hu'] = array(
 	'right-editalluserpages' => 'felhasználólapok szerkesztése',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -211,7 +211,7 @@ $messages['id'] = array(
 	'right-editalluserpages' => 'Sunting halaman pengguna',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Civvì
  */
 $messages['it'] = array(
@@ -253,7 +253,7 @@ $messages['lb'] = array(
 	'right-editalluserpages' => 'Benotzersäiten änneren',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author Xil
  */
 $messages['lv'] = array(
@@ -261,7 +261,7 @@ $messages['lv'] = array(
 	'right-editalluserpages' => 'Rediģēt lietotāju lapas',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -293,7 +293,7 @@ $messages['nl'] = array(
 	'right-editalluserpages' => "Gebruikerspagina's bewerken",
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -308,7 +308,7 @@ $messages['pdc'] = array(
 	'right-editalluserpages' => 'Bledder vun Yuuser ennere',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -332,7 +332,7 @@ $messages['ps'] = array(
 	'right-editalluserpages' => 'کارن مخونه سمول',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  */
 $messages['pt'] = array(
@@ -340,7 +340,7 @@ $messages['pt'] = array(
 	'right-editalluserpages' => 'Editar páginas de utilizador',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Giro720
  */
 $messages['pt-br'] = array(
@@ -348,14 +348,14 @@ $messages['pt-br'] = array(
 	'right-editalluserpages' => 'Editar páginas de usuário',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Minisarm
  */
 $messages['ro'] = array(
 	'right-editalluserpages' => 'Modifică paginile utilizatorului',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -363,7 +363,7 @@ $messages['roa-tara'] = array(
 	'right-editalluserpages' => 'Cange le pàggene utinde',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -378,7 +378,7 @@ $messages['si'] = array(
 	'right-editalluserpages' => 'පරිශීලක පිටු සංස්කරණය කිරීම',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -386,7 +386,7 @@ $messages['sl'] = array(
 	'right-editalluserpages' => 'Urejanje uporabniških strani',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
@@ -394,13 +394,13 @@ $messages['sr-ec'] = array(
 	'right-editalluserpages' => 'Измена корисничких страна',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+/** Serbian (Latin script) (‪srpski (latinica)‬) */
 $messages['sr-el'] = array(
 	'userpageeditprotection-desc' => 'Ograničava uređivanje korisničkih strana na korisnika i odobrene urednike',
 	'right-editalluserpages' => 'Izmena korisničkih strana',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Dafer45
  */
 $messages['sv'] = array(
@@ -430,7 +430,7 @@ $messages['tl'] = array(
 	'right-editalluserpages' => 'Baguhin ang mga pahina ng tagagamit',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Alex Khimich
  */
 $messages['uk'] = array(
@@ -446,13 +446,13 @@ $messages['vi'] = array(
 	'right-editalluserpages' => 'Sửa đổi trang thành viên',
 );
 
-/** Simplified Chinese (‪中文(简体)‬) */
+/** Simplified Chinese (‪中文（简体）‬) */
 $messages['zh-hans'] = array(
 	'userpageeditprotection-desc' => '限制用户及获授权者编辑用户页',
 	'right-editalluserpages' => '编辑用户页',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Mark85296341
  * @author Wong128hk
  */
