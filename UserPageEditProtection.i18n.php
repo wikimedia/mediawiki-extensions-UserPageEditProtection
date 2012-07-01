@@ -66,7 +66,7 @@ $messages['bar'] = array(
 	'right-editalluserpages' => 'Benutzerseiten beorweiten',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  */
 $messages['be-tarask'] = array(
@@ -106,7 +106,7 @@ $messages['de'] = array(
 	'right-editalluserpages' => 'Benutzerseiten bearbeiten',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -154,7 +154,7 @@ $messages['frp'] = array(
 	'right-editalluserpages' => 'Changiér les pâges usanciér',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -178,7 +178,7 @@ $messages['he'] = array(
 	'right-editalluserpages' => 'עריכת דפי משתמש',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
