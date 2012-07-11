@@ -277,7 +277,7 @@ $messages['ms'] = array(
 	'right-editalluserpages' => 'Menyunting laman pengguna',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
