@@ -231,10 +231,11 @@ $messages['ja'] = array(
 
 /** Korean (한국어)
  * @author Kwj2772
+ * @author 아라
  */
 $messages['ko'] = array(
 	'userpageeditprotection-desc' => '해당 사용자와 허가된 사용자만이 사용자 문서를 편집할 수 있도록 제한',
-	'right-editalluserpages' => '모든 사용자 문서를 편집',
+	'right-editalluserpages' => '사용자 문서 편집',
 );
 
 /** Colognian (Ripoarisch)
