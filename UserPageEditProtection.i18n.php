@@ -229,6 +229,13 @@ $messages['ja'] = array(
 	'right-editalluserpages' => '利用者ページを編集',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'right-editalluserpages' => 'მომხმარებლების გვერდების რედაქტირება',
+);
+
 /** Korean (한국어)
  * @author Kwj2772
  * @author 아라
