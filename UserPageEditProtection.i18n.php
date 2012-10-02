@@ -66,7 +66,7 @@ $messages['bar'] = array(
 	'right-editalluserpages' => 'Benutzerseiten beorweiten',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  */
 $messages['be-tarask'] = array(
@@ -285,7 +285,7 @@ $messages['ms'] = array(
 	'right-editalluserpages' => 'Menyunting laman pengguna',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -394,7 +394,7 @@ $messages['sl'] = array(
 	'right-editalluserpages' => 'Urejanje uporabniških strani',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
@@ -402,7 +402,7 @@ $messages['sr-ec'] = array(
 	'right-editalluserpages' => 'Измена корисничких страна',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬) */
+/** Serbian (Latin script) (srpski (latinica)‎) */
 $messages['sr-el'] = array(
 	'userpageeditprotection-desc' => 'Ograničava uređivanje korisničkih strana na korisnika i odobrene urednike',
 	'right-editalluserpages' => 'Izmena korisničkih strana',
@@ -454,13 +454,13 @@ $messages['vi'] = array(
 	'right-editalluserpages' => 'Sửa đổi trang thành viên',
 );
 
-/** Simplified Chinese (‪中文（简体）‬) */
+/** Simplified Chinese (中文（简体）‎) */
 $messages['zh-hans'] = array(
 	'userpageeditprotection-desc' => '限制用户及获授权者编辑用户页',
 	'right-editalluserpages' => '编辑用户页',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Mark85296341
  * @author Wong128hk
  */
