@@ -36,6 +36,7 @@ $wgExtensionCredits['other'][] = array(
 	'version' => '2.1.0-alpha',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:UserPageEditProtection',
 	'descriptionmsg' => 'userpageeditprotection-desc',
+	'license-name' => 'GPL-2.0+'
 );
 
 // Register extension messages
