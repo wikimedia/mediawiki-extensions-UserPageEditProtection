@@ -11,8 +11,10 @@
  * @ingroup Extensions
  * @package MediaWiki
  *
- * @author Lisa Ridley (lhridley)
+ * @author Lisa Ridley
  * @author Eric Gingell
+ *
+ * @copyright Copyright (C) 2007, Lisa Ridley (lhridley)
  *
  * @license https://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
@@ -22,7 +24,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	die( 'This is an extension to MediaWiki and cannot be run standalone.' );
 }
 
-// Display extension's information on "Special:Version"
+// Register extension with MediaWiki
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'UserPageEditProtection',
@@ -36,7 +38,8 @@ $wgExtensionCredits['other'][] = array(
 	'descriptionmsg' => 'userpageeditprotection-desc',
 );
 
-// Load internationalization files
+// Register extension messages
+$wgMessagesDirs['UserPageEditProtection'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['UserPageEditProtection'] = __DIR__ . '/UserPageEditProtection.i18n.php';
 
 // Add user permission

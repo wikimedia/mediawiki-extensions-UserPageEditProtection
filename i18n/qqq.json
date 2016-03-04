@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Lrhidley"
+		]
+	},
+	"userpageeditprotection-desc": "{{desc|name=UserPageEditProtection|url=https://www.mediawiki.org/wiki/Extension:UserPageEditProtection}}",
+	"right-editalluserpages": "{{doc-right|editalluserpages}}",
+	"action-editalluserpages": "{{doc-action|editalluserpages}}"
+}
