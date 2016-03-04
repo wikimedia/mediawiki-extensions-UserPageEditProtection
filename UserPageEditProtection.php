@@ -11,10 +11,13 @@
  * @ingroup Extensions
  * @package MediaWiki
  *
- * @author Lisa Ridley
- * @author Eric Gingell
+ * @version 3.0.0 2016-03-04
  *
- * @copyright Copyright (C) 2007, Lisa Ridley (lhridley)
+ * @author Lisa Ridley (lhridley/hoggwild5)
+ * @author Eric Gingell (egingell)
+ * @author Karsten Hoffmeyer (kghbln)
+ *
+ * @copyright Copyright (C) 2007, Lisa Ridley
  *
  * @license https://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
@@ -31,13 +34,17 @@ $wgExtensionCredits['other'][] = array(
 	'author' => array(
 		'Lisa Ridley',
 		'Eric Gingell',
+		'Karsten Hoffmeyer',
 		'...'
 		),
-	'version' => '2.1.0-alpha',
+	'version' => '3.0.0',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:UserPageEditProtection',
 	'descriptionmsg' => 'userpageeditprotection-desc',
 	'license-name' => 'GPL-2.0+'
 );
+
+// Load extension's class
+$wgAutoloadClasses['UserPageEditProtection'] = __DIR__ . '/UserPageEditProtection.class.php';
 
 // Register extension messages
 $wgMessagesDirs['UserPageEditProtection'] = __DIR__ . '/i18n';
@@ -48,29 +55,4 @@ $wgAvailableRights[] = 'editalluserpages';
 $wgGroupPermissions['sysop']['editalluserpages'] = true;
 
 // Register hook
-$wgHooks['userCan'][] = 'fnUserPageEditProtection';
-
-// Perform action
-function fnUserPageEditProtection( $title, $user, $action, &$result ) {
-	global $wgOnlyUserEditUserPage;
-	$lTitle = explode( '/', $title->getText() );
-	if ( !( $action == 'edit' || $action == 'move' ) ) {
-		$result = null;
-	return true;
-        }
-	if ( $title->mNamespace !== NS_USER ) {
-		$result = null;
-		return true;
-	}
-	if ( $wgOnlyUserEditUserPage ) {
-		if ( $user->isAllowed( 'editalluserpages' ) || ( $user->getname() == $lTitle[0] ) ) {
-			$result = null;
-			return true;
-		} else {
-			$result = false;
-			return false;
-		}
-	}
-	$result = null;
-	return true;
-}
+$wgHooks['userCan'][] = 'UserPageEditProtection::onUserCan';
