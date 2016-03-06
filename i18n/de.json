@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Metalhead64"
+			"Metalhead64",
+			"Kghbln"
 		]
 	},
-	"userpageeditprotection-desc": "Ermöglicht die Begrenzung der Bearbeitung von Benutzerseiten auf den Benutzer und berechtigte Autoren",
+	"userpageeditprotection-desc": "Ermöglicht es, Bearbeitungen von Benutzerseiten auf den Benutzer selbst und sonstige Berechtigte zu beschränken",
 	"right-editalluserpages": "Alle Benutzerseiten bearbeiten",
 	"action-editalluserpages": "diese Benutzerseite zu bearbeiten"
 }

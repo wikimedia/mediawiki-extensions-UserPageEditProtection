@@ -4,7 +4,7 @@
 			"Purodha"
 		]
 	},
-	"userpageeditprotection-desc": "ääd et müjjelesch, et Ändere aan Metmacher ier Sigge op de Metmaacher sellver un beschtemmpte zohjelohße Metmaacher ze beschrängke.<!--  https://phabricator.wikimedia.org/T128977 -->",
-	"right-editalluserpages": "Metmaacher ier Sigge ändere",
-	"action-editalluserpages": "Donn heh di Metmaachersigge beärrbeijde"
+	"userpageeditprotection-desc": "määd et müjjelesch, et Ändere aan Metmacher ier Sigge op de Metmaacher sellver un beschtemmpte zohjelohße Metmaacher ze beschrängke.<!--  https://phabricator.wikimedia.org/T128977 -->",
+	"right-editalluserpages": "Alle Metmaacher-Sigge ändere",
+	"action-editalluserpages": "heh di Metmaachersigg ze beärrbeijde"
 }
