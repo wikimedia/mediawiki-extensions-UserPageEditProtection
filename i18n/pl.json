@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Sp5uhe"
+		]
+	},
+	"userpageeditprotection-desc": "Ogranicza edycję stron użytkowników do nich samych i specjalnie uprawnionych",
+	"right-editalluserpages": "Edycja stron użytkowników",
+	"action-editalluserpages": "edytowania tej strony użytkownika"
+}
