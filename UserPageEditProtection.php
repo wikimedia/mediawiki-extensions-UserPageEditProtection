@@ -11,7 +11,7 @@
  * @ingroup Extensions
  * @package MediaWiki
  *
- * @version 3.0.0 2016-03-04
+ * @version 3.0.1 2016-04-22
  *
  * @author Lisa Ridley (lhridley/hoggwild5)
  * @author Eric Gingell (egingell)
@@ -37,7 +37,7 @@ $wgExtensionCredits['other'][] = array(
 		'Karsten Hoffmeyer',
 		'...'
 		),
-	'version' => '3.0.0',
+	'version' => '3.0.1',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:UserPageEditProtection',
 	'descriptionmsg' => 'userpageeditprotection-desc',
 	'license-name' => 'GPL-2.0+'
