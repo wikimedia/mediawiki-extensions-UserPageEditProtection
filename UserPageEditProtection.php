@@ -5,7 +5,7 @@
  *
  * @link https://www.mediawiki.org/wiki/Extension:UserPageEditProtection Documentation
  * @link https://www.mediawiki.org/wiki/Extension_talk:UserPageEditProtection Support
- * @link https://git.wikimedia.org/summary/mediawiki%2Fextensions%2FUserPageEditProtection.git Source Code
+ * @link https://phabricator.wikimedia.org/diffusion/EUPE/repository/master/ Source Code
  *
  * @file
  * @ingroup Extensions
@@ -31,12 +31,12 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['other'][] = [
 	'path' => __FILE__,
 	'name' => 'UserPageEditProtection',
-	'author' => array(
+	'author' => [
 		'Lisa Ridley',
 		'Eric Gingell',
 		'Karsten Hoffmeyer',
 		'...'
-		),
+	],
 	'version' => '4.0.0',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:UserPageEditProtection',
 	'descriptionmsg' => 'userpageeditprotection-desc',
