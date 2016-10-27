@@ -11,7 +11,7 @@
  * @ingroup Extensions
  * @package MediaWiki
  *
- * @version 3.0.2 2016-10-27
+ * @version 4.0.0 2016-10-27
  *
  * @author Lisa Ridley (lhridley/hoggwild5)
  * @author Eric Gingell (egingell)
@@ -28,7 +28,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 }
 
 // Register extension with MediaWiki
-$wgExtensionCredits['other'][] = array(
+$wgExtensionCredits['other'][] = [
 	'path' => __FILE__,
 	'name' => 'UserPageEditProtection',
 	'author' => array(
@@ -37,18 +37,17 @@ $wgExtensionCredits['other'][] = array(
 		'Karsten Hoffmeyer',
 		'...'
 		),
-	'version' => '3.0.2',
+	'version' => '4.0.0',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:UserPageEditProtection',
 	'descriptionmsg' => 'userpageeditprotection-desc',
 	'license-name' => 'GPL-2.0+'
-);
+];
 
 // Load extension's class
 $wgAutoloadClasses['UserPageEditProtection'] = __DIR__ . '/UserPageEditProtection.class.php';
 
 // Register extension messages
 $wgMessagesDirs['UserPageEditProtection'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['UserPageEditProtection'] = __DIR__ . '/UserPageEditProtection.i18n.php';
 
 // Add user permission
 $wgAvailableRights[] = 'editalluserpages';
