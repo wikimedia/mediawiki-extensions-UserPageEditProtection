@@ -3,9 +3,12 @@
  * The UserPageEditProtection extension to MediaWiki allows to restrict the edit
  * access to user pages.
  *
- * @link https://www.mediawiki.org/wiki/Extension:UserPageEditProtection Documentation
+ * @link https://www.mediawiki.org/wiki/Extension:UserPageEditProtection Homepage
+ * @link https://phabricator.wikimedia.org/diffusion/EUPE/browse/master/README.md Documentation
  * @link https://www.mediawiki.org/wiki/Extension_talk:UserPageEditProtection Support
+ * @link https://phabricator.wikimedia.org/maniphest/task/edit/form/1/ Issue tracker
  * @link https://phabricator.wikimedia.org/diffusion/EUPE/repository/master/ Source Code
+ * @link https://github.com/wikimedia/mediawiki-extensions-UserPageEditProtection/releases Downloads
  *
  * @file
  * @ingroup Extensions

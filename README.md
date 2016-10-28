@@ -8,12 +8,12 @@ UserPageEditProtection is an extension to MediaWiki that allows to restrict the 
 * PHP 5.4+
 * MediaWiki 1.23+
 
-See also the CHANGELOG.md file provided with the code.
+See also the "CHANGELOG.md" file provided with the code.
 
 
 ### Installation
 
-(1) Obtain the code from the [repository](https://phabricator.wikimedia.org/diffusion/EUPE/repository/master/)
+(1) Obtain the code from [GitHub](https://github.com/wikimedia/mediawiki-extensions-UserPageEditProtection/releases)
 
 (2) Extract the files in a directory called `UserPageEditProtection` in your `extensions/` folder.
 
