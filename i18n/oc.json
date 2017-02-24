@@ -4,7 +4,7 @@
 			"Cedric31"
 		]
 	},
-	"userpageeditprotection-desc": "Restrenh las modificacions de las paginas d'utilizaire a son proprietari e als utilizaires autorizats",
+	"userpageeditprotection-desc": "Permet de restrénher las modificacions de las paginas d'utilizaire als utilizaires e als editors autorizats",
 	"right-editalluserpages": "Modificar totas las paginas d'utilizaires",
 	"action-editalluserpages": "modificar aquesta pagina d'utilizaire"
 }
