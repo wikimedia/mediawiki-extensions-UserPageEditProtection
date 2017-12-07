@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Wladek92"
+			"Wladek92",
+			"Urhixidur"
 		]
 	},
 	"userpageeditprotection-desc": "Permet de restreindre les modifications des pages utilisateurs aux utilisateurs et aux éditeurs autorisés",
 	"right-editalluserpages": "Modifier toutes les pages utilisateurs",
-	"action-editalluserpages": "modifier cette page utilisateur"
+	"action-editalluserpages": "modifier cette page d’utilisateur"
 }
