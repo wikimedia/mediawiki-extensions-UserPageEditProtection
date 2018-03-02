@@ -43,7 +43,7 @@ $wgExtensionCredits['other'][] = [
 	'version' => '4.0.0',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:UserPageEditProtection',
 	'descriptionmsg' => 'userpageeditprotection-desc',
-	'license-name' => 'GPL-2.0+'
+	'license-name' => 'GPL-2.0-or-later'
 ];
 
 // Load extension's class
