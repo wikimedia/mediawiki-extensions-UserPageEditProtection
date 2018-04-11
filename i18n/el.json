@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dead3y3"
+			"Dead3y3",
+			"Nikosgranturismogt"
 		]
 	},
-	"userpageeditprotection-desc": "Περιορίζει την επεξεργασία στις σελίδες χρήστη στον χρήστη και επιτρεπόμενους συντάκτες",
-	"right-editalluserpages": "Επεξεργασία σελίδων χρήστη"
+	"userpageeditprotection-desc": "Επιτρέπει τον περιορισμό της επεξεργασίας στις σελίδες χρήστη στον χρήστη και επιτρεπόμενους συντάκτες",
+	"right-editalluserpages": "Επεξεργασία όλων των σελίδων χρήστη",
+	"action-editalluserpages": "επεξεργασία αυτής της σελίδας χρήστη"
 }
