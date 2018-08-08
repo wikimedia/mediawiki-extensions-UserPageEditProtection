@@ -3,10 +3,11 @@
 		"authors": [
 			"Михајло Анђелковић",
 			"Сербијана",
-			"Obsuser"
+			"Obsuser",
+			"BadDog"
 		]
 	},
 	"userpageeditprotection-desc": "Омогућава ограничено уређивање корисничких страница за корисника и одобрене уреднике",
 	"right-editalluserpages": "Измена свих корисничких страница",
-	"action-editalluserpages": "уређивање ове корисничке странице"
+	"action-editalluserpages": "уређујете ову корисничку страницу"
 }
