@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Glanthor Reviol"
+			"Glanthor Reviol",
+			"Bencemac"
 		]
 	},
 	"userpageeditprotection-desc": "Szerkesztés korlátozása felhasználólapokon a tulajdonosra és engedélyezett szerkesztőkre",
-	"right-editalluserpages": "felhasználólapok szerkesztése"
+	"right-editalluserpages": "Szerkesztői lapok szerkesztése",
+	"action-editalluserpages": "eme szerkesztői lap szerkesztése"
 }
