@@ -6,5 +6,6 @@
 		]
 	},
 	"userpageeditprotection-desc": "Ierobežo lietotāju lapu rediģēšanu, atļaujot to tikai pašam lietotājam un lietotājiem ar atļauju to darīt",
-	"right-editalluserpages": "Labot visu lietotāju lapas"
+	"right-editalluserpages": "Labot visu lietotāju lapas",
+	"action-editalluserpages": "labot šo dalībnieka lapu"
 }
