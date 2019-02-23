@@ -14,8 +14,6 @@
  * @ingroup Extensions
  * @package MediaWiki
  *
- * @version 4.0.0 2016-10-27
- *
  * @author Lisa Ridley (lhridley/hoggwild5)
  * @author Eric Gingell (egingell)
  * @author Karsten Hoffmeyer (kghbln)
@@ -25,36 +23,17 @@
  * @license https://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
-// Ensure that the script cannot be executed outside of MediaWiki
-if ( !defined( 'MEDIAWIKI' ) ) {
-	die( 'This is an extension to MediaWiki and cannot be run standalone.' );
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'UserPageEditProtection' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['UserPageEditProtection'] = __DIR__ . '/i18n';
+	$wgExtensionMessagesFiles['UserPageEditProtectionAlias'] = __DIR__ . '/UserPageEditProtection.alias.php';
+	wfWarn(
+		'Deprecated PHP entry point used for the UserPageEditProtection extension. ' .
+		'Please use wfLoadExtension instead, ' .
+		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
+	);
+	return;
+} else {
+	die( 'This version of the UserPageEditProtection extension requires MediaWiki 1.29+' );
 }
-
-// Register extension with MediaWiki
-$wgExtensionCredits['other'][] = [
-	'path' => __FILE__,
-	'name' => 'UserPageEditProtection',
-	'author' => [
-		'Lisa Ridley',
-		'Eric Gingell',
-		'Karsten Hoffmeyer',
-		'...'
-	],
-	'version' => '4.0.0',
-	'url' => 'https://www.mediawiki.org/wiki/Extension:UserPageEditProtection',
-	'descriptionmsg' => 'userpageeditprotection-desc',
-	'license-name' => 'GPL-2.0-or-later'
-];
-
-// Load extension's class
-$wgAutoloadClasses['UserPageEditProtection'] = __DIR__ . '/UserPageEditProtection.class.php';
-
-// Register extension messages
-$wgMessagesDirs['UserPageEditProtection'] = __DIR__ . '/i18n';
-
-// Add user permission
-$wgAvailableRights[] = 'editalluserpages';
-$wgGroupPermissions['sysop']['editalluserpages'] = true;
-
-// Register hook
-$wgHooks['userCan'][] = 'UserPageEditProtection::onUserCan';
