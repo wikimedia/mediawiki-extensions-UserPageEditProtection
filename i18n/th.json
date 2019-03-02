@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Passawuth"
+			"Passawuth",
+			"Horus"
 		]
 	},
 	"userpageeditprotection-desc": "จำกัดการแก้ไขหน้าผู้ใช้ ให้เฉพาะผู้ใช้และผู้ได้รับอนุญาตเท่านั้น",
-	"right-editalluserpages": "แก้ไขหน้าผู้ใช้"
+	"right-editalluserpages": "แก้ไขหน้าผู้ใช้ทั้งหมด"
 }
