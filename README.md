@@ -5,8 +5,8 @@ UserPageEditProtection is an extension to MediaWiki that allows to restrict the 
 
 ### Compatibility
 
-* PHP 5.4+
-* MediaWiki 1.23+
+* PHP 7.0+
+* MediaWiki 1.29+
 
 See also the "CHANGELOG.md" file provided with the code.
 
@@ -19,12 +19,22 @@ See also the "CHANGELOG.md" file provided with the code.
 
 (3) Add the following code at the bottom of your "LocalSettings.php" file:
 ```
-require_once "$IP/extensions/UserPageEditProtection/UserPageEditProtection.php";
+wfLoadExtension( 'UserPageEditProtection' );
 $wgOnlyUserEditUserPage = true;
 ```
 (4) Go to "Special:Version" on your wiki to verify that the extension is successfully installed.
 
 (5) Done.
+
+
+Note:
+
+When updating from version 4.0.0 and earlier make sure to migrate your "LocalSettings.php" from using
+```
+require_once "$IP/extensions/UserPageEditProtection/UserPageEditProtection.php";
+$wgOnlyUserEditUserPage = true;
+```
+to what is documented in step (3).
 
 
 ### Configuration

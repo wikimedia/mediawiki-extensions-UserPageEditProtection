@@ -1,7 +1,21 @@
 ## UserPageEditProtection
 
-UserPageEditProtection is a MediaWiki extension allowing to restrict edit access to user pages.
+UserPageEditProtection is a MediaWiki extension allowing to restrict
+edit access to user pages.
+
 This file documents the development changes.
+
+
+### Version 4.1.0
+
+Released on 2020-03-07 by Zoran Dori (zoranzoki21) and
+Harika Mekala (HarikaMekala)
+
+- Dropped compatibility with PHP 7.0 and lower
+- Dropped compatibility with MW 1.28.x and lower
+- Migrated to extension registration mechanism
+- Internal code changes to improve stability
+- Provide translations done by the community of translatewiki.net
 
 
 ### Version 4.0.0
