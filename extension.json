@@ -28,7 +28,7 @@
 		]
 	},
 	"AutoloadClasses": {
-		"UserPageEditProtection": "UserPageEditProtection.class.php"
+		"UserPageEditProtection": "includes/UserPageEditProtection.php"
 	},
 	"Hooks": {
 		"userCan": "UserPageEditProtection::onUserCan"
