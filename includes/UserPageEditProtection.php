@@ -11,6 +11,14 @@
 
 class UserPageEditProtection {
 
+	/**
+	 * @param Title $title
+	 * @param User $user
+	 * @param string $action
+	 * @param array|IApiMessage &$result
+	 *
+	 * @return bool
+	 */
 	public static function onUserCan( $title, $user, $action, &$result ) {
 		global $wgOnlyUserEditUserPage;
 		$lTitle = explode( '/', $title->getText() );
