@@ -26,7 +26,7 @@ class UserPageEditProtection {
 			$result = null;
 		return true;
 		}
-		if ( $title->mNamespace !== NS_USER ) {
+		if ( $title->getNamespace() !== NS_USER ) {
 			$result = null;
 			return true;
 		}
