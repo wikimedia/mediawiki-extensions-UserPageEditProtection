@@ -6,7 +6,6 @@
  * @ingroup Extensions
  *
  * @license GPL-2.0-or-later
- *
  */
 
 class UserPageEditProtection {
@@ -21,16 +20,16 @@ class UserPageEditProtection {
 	 */
 	public static function onUserCan( $title, $user, $action, &$result ) {
 		global $wgOnlyUserEditUserPage;
-		$lTitle = explode( '/', $title->getText() );
 		if ( !( $action == 'edit' || $action == 'move' ) ) {
 			$result = null;
-		return true;
+			return true;
 		}
 		if ( $title->getNamespace() !== NS_USER ) {
 			$result = null;
 			return true;
 		}
 		if ( $wgOnlyUserEditUserPage ) {
+			$lTitle = explode( '/', $title->getText() );
 			if ( $user->isAllowed( 'editalluserpages' ) || ( $user->getname() == $lTitle[0] ) ) {
 				$result = null;
 				return true;
