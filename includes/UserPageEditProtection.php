@@ -14,11 +14,11 @@ class UserPageEditProtection {
 	 * @param Title $title
 	 * @param User $user
 	 * @param string $action
-	 * @param array|IApiMessage &$result
+	 * @param array|string|MessageSpecifier &$result
 	 *
 	 * @return bool
 	 */
-	public static function onUserCan( $title, $user, $action, &$result ) {
+	public static function onGetUserPermissionsErrors( $title, $user, $action, &$result ) {
 		global $wgOnlyUserEditUserPage;
 		if ( !( $action == 'edit' || $action == 'move' ) ) {
 			$result = null;

@@ -31,7 +31,7 @@
 		"UserPageEditProtection": "includes/UserPageEditProtection.php"
 	},
 	"Hooks": {
-		"userCan": "UserPageEditProtection::onUserCan"
+		"getUserPermissionsErrors": "UserPageEditProtection::onGetUserPermissionsErrors"
 	},
 	"manifest_version": 2
 }
