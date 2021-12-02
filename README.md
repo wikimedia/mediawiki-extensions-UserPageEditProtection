@@ -31,7 +31,7 @@ Note:
 
 When updating from version 4.0.0 and earlier make sure to migrate your "LocalSettings.php" from using
 ```
-require_once "$IP/extensions/UserPageEditProtection/UserPageEditProtection.php";
+wfLoadExtension( 'UserPageEditProtection' );
 $wgOnlyUserEditUserPage = true;
 ```
 to what is documented in step (3).
