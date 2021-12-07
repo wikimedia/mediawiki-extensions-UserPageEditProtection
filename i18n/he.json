@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Guycn2",
-			"YaronSh"
+			"YaronSh",
+			"Amire80"
 		]
 	},
-	"userpageeditprotection-desc": "הגבלת עריכת דפי משתמשים למשתמשים המשויכים אליהם ולעורכים מורשים",
+	"userpageeditprotection-desc": "מאפשרת להגביל עריכת דפי משתמש למשתמשים המשויכים אליהם ולעורכים מורשים",
 	"right-editalluserpages": "עריכת כל דפי המשתמש",
 	"action-editalluserpages": "לערוך את דף המשתמש הזה"
 }
