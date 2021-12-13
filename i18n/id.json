@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Irwangatot",
-			"Kenrick95"
+			"Kenrick95",
+			"Daud I.F. Argana"
 		]
 	},
-	"userpageeditprotection-desc": "Batasan penyuntingan pada halaman pengguna bagi pengguna dan penyunting",
-	"right-editalluserpages": "Sunting halaman pengguna"
+	"userpageeditprotection-desc": "Memungkinkan pembatasan penyuntingan pada halaman pengguna bagi pengguna dan penyunting",
+	"right-editalluserpages": "Menyunting semua halaman pengguna",
+	"action-editalluserpages": "menyunting halaman pengguna ini"
 }
