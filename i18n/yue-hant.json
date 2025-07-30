@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"JeffreyKim"
+		]
+	},
+	"userpageeditprotection-desc": "允許將用戶頁面嘅編輯限制喺用戶同埋允許嘅編輯",
+	"right-editalluserpages": "編輯晒所有用戶頁面",
+	"action-editalluserpages": "編輯呢個用戶頁面"
+}
