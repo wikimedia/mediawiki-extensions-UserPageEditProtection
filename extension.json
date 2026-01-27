@@ -1,6 +1,6 @@
 {
 	"name": "UserPageEditProtection",
-	"version": "4.1.0",
+	"version": "4.2.0",
 	"author": [
 		"Lisa Ridley",
 		"Eric Gingell",
@@ -12,7 +12,7 @@
 	"license-name": "GPL-2.0-or-later",
 	"type": "other",
 	"requires": {
-		"MediaWiki": ">= 1.29.0"
+		"MediaWiki": ">= 1.36.0"
 	},
 	"AvailableRights": [
 		"editalluserpages"
@@ -27,11 +27,21 @@
 			"i18n"
 		]
 	},
-	"AutoloadClasses": {
-		"UserPageEditProtection": "includes/UserPageEditProtection.php"
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\UserPageEditProtection\\": "includes/"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\UserPageEditProtection\\UserPageEditProtection"
+		}
 	},
 	"Hooks": {
-		"getUserPermissionsErrors": "UserPageEditProtection::onGetUserPermissionsErrors"
+		"getUserPermissionsErrors": "main"
+	},
+	"config": {
+		"OnlyUserEditUserPage": {
+			"value": false
+		}
 	},
 	"manifest_version": 2
 }
