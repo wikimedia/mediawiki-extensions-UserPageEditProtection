@@ -24,8 +24,8 @@ class UserPageEditProtection implements GetUserPermissionsErrorsHook {
 			$wgOnlyUserEditUserPage &&
 			( $action === 'edit' || $action === 'move' ) &&
 			$title->getNamespace() === NS_USER &&
-			!$user->isAllowed( 'editalluserpages' ) &&
-			!$title->isSamePageAs( $user->getUserPage() )
+			$title->getRootText() !== $user->getName() &&
+			!$user->isAllowed( 'editalluserpages' )
 		) {
 			// TODO: This really should return a message
 			$result = false;
