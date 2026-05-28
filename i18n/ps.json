@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
+	"userpageeditprotection-desc": "په کارن مخونو کې د کارن او اجازه ورکړل شويو سمونگرانو سمون محدودولو ته اجازه ورکوي",
 	"right-editalluserpages": "ټول کارن مخونه سمول",
 	"action-editalluserpages": "دا کارن مخ سمول"
 }
