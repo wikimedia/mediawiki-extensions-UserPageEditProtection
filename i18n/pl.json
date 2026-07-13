@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Chrumps",
+			"PanWor",
 			"Sp5uhe"
 		]
 	},
 	"userpageeditprotection-desc": "Ogranicza edycję na stronie użytkownika do samego użytkownika i uprawnionych edytorów",
 	"right-editalluserpages": "Edycja wszystkich stron użytkowników",
-	"action-editalluserpages": "edytowania tej strony użytkownika"
+	"action-editalluserpages": "edytowania stron innych użytkowników"
 }

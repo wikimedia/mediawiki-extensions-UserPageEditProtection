@@ -3,10 +3,11 @@
 		"authors": [
 			"Amire80",
 			"Guycn2",
+			"Neriah",
 			"YaronSh"
 		]
 	},
 	"userpageeditprotection-desc": "מאפשרת להגביל עריכת דפי משתמש למשתמשים המשויכים אליהם ולעורכים מורשים",
 	"right-editalluserpages": "עריכת כל דפי המשתמש",
-	"action-editalluserpages": "לערוך את דף המשתמש הזה"
+	"action-editalluserpages": "לערוך דפי משתמש של אחרים"
 }
