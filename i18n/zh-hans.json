@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"GuoPC",
 			"LittlePaw365",
 			"Liuxinyu970226"
 		]
 	},
 	"userpageeditprotection-desc": "允许限制用户及获授权者编辑用户页",
 	"right-editalluserpages": "编辑所有用户页",
-	"action-editalluserpages": "编辑该用户页"
+	"action-editalluserpages": "编辑其他用户的用户页"
 }
