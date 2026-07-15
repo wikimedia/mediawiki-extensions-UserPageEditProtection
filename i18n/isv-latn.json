@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"IJzeren Jan"
+		]
+	},
+	"userpageeditprotection-desc": "Pozvoljaje ograničiti pravjenje koristničskyh stranic do samogo koristnika i dopuščenyh redaktorov",
+	"right-editalluserpages": "Pravjenje vsih koristničskyh stranic",
+	"action-editalluserpages": "Pravjenje stranic drugyh koristnikov"
+}
