@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Bencemac",
+			"Dj",
 			"Glanthor Reviol",
 			"Tacsipacsi"
 		]
 	},
 	"userpageeditprotection-desc": "Lehetővé teszi a szerkesztés korlátozását felhasználólapokon a tulajdonosra és engedélyezett szerkesztőkre",
 	"right-editalluserpages": "Szerkesztői lapok szerkesztése",
-	"action-editalluserpages": "eme szerkesztői lap szerkesztése"
+	"action-editalluserpages": "más szerkesztői lap szerkesztése"
 }
