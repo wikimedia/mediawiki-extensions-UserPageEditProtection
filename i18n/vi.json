@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bapham123",
 			"Minh Nguyen"
 		]
 	},
 	"userpageeditprotection-desc": "Cho phép giới hạn quyền sửa đổi trang cá nhân, chỉ dành cho chính cá nhân và một số người dùng cụ thể",
-	"right-editalluserpages": "Sửa đổi trang thành viên"
+	"right-editalluserpages": "Sửa đổi tất cả trang thành viên"
 }
