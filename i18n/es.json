@@ -4,7 +4,5 @@
 			"Macofe"
 		]
 	},
-	"userpageeditprotection-desc": "Permite restringir la edición de las páginas de usuario al usuario y a los editores permitidos",
-	"right-editalluserpages": "Editar todas las páginas de usuario",
-	"action-editalluserpages": "editar esta página de usuario"
+	"userpageeditprotection-desc": "Permite restringir la edición de las páginas de usuario al usuario y a los editores permitidos"
 }
