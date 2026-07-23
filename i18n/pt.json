@@ -4,7 +4,5 @@
 			"Vitorvicentevalente"
 		]
 	},
-	"userpageeditprotection-desc": "Permite restringir a edição das páginas de utilizador ao próprio utilizador e aos editores permitidos",
-	"right-editalluserpages": "Editar todas as páginas de utilizador",
-	"action-editalluserpages": "editar esta página de utilizador"
+	"userpageeditprotection-desc": "Permite restringir a edição das páginas de utilizador ao próprio utilizador e aos editores permitidos"
 }
