@@ -5,7 +5,5 @@
 			"Lrhidley"
 		]
 	},
-	"userpageeditprotection-desc": "Allows to restrict editing on user pages to user and allowed editors",
-	"right-editalluserpages": "Edit all user pages",
-	"action-editalluserpages": "edit this user page"
+	"userpageeditprotection-desc": "Allows to restrict editing on user pages to user and allowed editors"
 }
