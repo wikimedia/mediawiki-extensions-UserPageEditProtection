@@ -4,6 +4,7 @@
 			"Wizzard"
 		]
 	},
+	"userpageeditprotection-desc": "Umožňuje obmedziť úpravy používateľských stránok len na daného používateľa a povolených redaktorov",
 	"right-editalluserpages": "Upraviť všetky stránky používateľa",
 	"action-editalluserpages": "upravovať stránky iných používateľov"
 }
